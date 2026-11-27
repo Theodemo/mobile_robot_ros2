@@ -1,0 +1,30 @@
+# STM32CubeIDE / Eclipse build output and workspace state
+Debug/
+Release/
+.metadata/
+RemoteSystemsTempFiles/
+*.launch
+*.o
+*.d
+*.su
+*.elf
+*.map
+*.list
+*.bin
+*.hex
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# ROS 2 / colcon
+build/
+install/
+log/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/

@@ -1,0 +1,45 @@
+To Do list de l'IHM :
+
+Intégration des widgets :
+	4 widgets sont à intégrer dans l'IHM.
+	On peut utiliser "promote" dans Qt Designer
+	Ce sont :
+		- Le widget terminal, pour lancer des calculs et programmes
+		- Le widget graphes, qui contient les 2 graphes de vitesse moteur et robot
+		- Le widget du flux brut de Caméra
+		- Le widget du flux traité par OpenCV
+
+Codage des widgets et fonctionnalités:
+	2 widgets sont a coder intégralement:
+		- Le widget graphes, qui doit intégrer les deux graphes
+		Une fonction update pour mettre a jour les graphes
+		Toolbar a intégrer.
+		Voir plotswidget.py
+
+		- Le widget flux traité par OpenCV : ???
+
+	Developper les fonctionnalités derriere les boutons : 
+		Pour l'instant, uniquement des print() pour indiquer la fonctionnalité.
+		- Commandes :
+			- Calcul et transmission des données
+			- Mettre en place le contrôle par manette
+		- Paramètres :
+			- Flux par défaut
+			- Mode par défaut
+			- Graphes
+			- Valeurs données
+			- Bloquages xlim graphe 1 & xlim graphe 2
+			- Te, Tmin, Tmax 
+
+Python général :
+	- Segmentations des fonctionnalités en fichier .py
+		init.py, controles.py, cfg.py, ...
+	
+	- Installation des modules si non satisfaits
+
+
+Multithreading :
+	- L'update des graphes, des flux camera et du terminal sont gourmands
+	Via QRunnable et QThreadPool : https://www.pythonguis.com/tutorials/multithreading-pyqt-applications-qthreadpool/#qrunnable-and-the-qthreadpool
+
+	- Dev les fonctions update et __init__() des fonctions:

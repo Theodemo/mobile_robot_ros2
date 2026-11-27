@@ -1,0 +1,21 @@
+<RCC>
+  <qresource prefix="icons">
+    <file>robot-64.ico</file>
+    <file>robot.ico</file>
+    <file>menu-4-64.ico</file>
+    <file>line-64.ico</file>
+    <file>integrated-webcam-64.ico</file>
+    <file>Iconsmind-Outline-View-Width_512_r90.ico</file>
+    <file>icone_robot_up.ico</file>
+    <file>exit-64.ico</file>
+    <file>cog-64.ico</file>
+    <file>code-64.ico</file>
+    <file>arrow-direction-64.ico</file>
+    <file>arrow-203-128.ico</file>
+    <file>arrow-141-128.ico</file>
+    <file>arrow-97-64.ico</file>
+    <file>arrow-88-128.ico</file>
+    <file>arrow-32-64.ico</file>
+    <file>arrow-24-128.ico</file>
+  </qresource>
+</RCC>

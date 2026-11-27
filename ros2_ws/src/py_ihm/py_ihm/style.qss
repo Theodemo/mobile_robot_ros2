@@ -1,0 +1,77 @@
+
+/* Background color */
+#IHMProjet
+{
+	background-color: #fff;
+}
+/* Menu color */
+#menu_w
+{
+	background-color: #f9fafd;
+}
+/* Menu of icons color */
+#icon_w
+{
+	background-color: #f9fafd;
+}
+/* style for widget */
+#icon_w {
+	background-color: #313a46;
+	width:50px;
+	border: 1px solid black;
+}
+/* style for QPushButton and QLabel */
+#icon_w QPushButton, QLabel {
+	height:50px;
+	border:none;
+	/* border-bottom: 1px solid #b0b0b0; */
+}
+
+#icon_w QPushButton:hover {
+	background-color: rgba( 86, 101, 115, 0.5);
+}
+
+/* style for widget */
+#menu_w {
+	background-color: #313a46;
+	/*width:50px;*/
+	border: 1px solid black;
+}
+
+ /* style for QPushButton and QLabel */
+#menu_w QPushButton, QLabel {
+	height:50px;
+	border:none;
+	/*text-align:right;*/
+	/* border-bottom: 1px solid #b0b0b0; */
+}
+
+#menu_w QPushButton{
+	color:#fff;
+	/* border-bottom: 1px solid #b0b0b0; */
+}
+
+#menu_w QPushButton:hover {
+	background-color: rgba( 86, 101, 115, 0.5);
+}
+
+#content_w 
+{
+	border: 1px solid black;
+}
+
+#settings_w
+{
+	border-left: 1px solid black;
+}
+
+#command_w
+{
+	border-top: 1px solid black;
+}
+
+#command_layout
+{
+	border: 1px solid black;
+	background-color:black;
+}
